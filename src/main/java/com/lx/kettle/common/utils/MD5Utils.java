@@ -41,7 +41,7 @@ public class MD5Utils {
     }
 
     public static void main(String[] args) {
-        System.out.println(MD5Utils.Encrypt("admin", true).equals("2a14bb3f432498ca48866b4642df480f"));
+        System.out.println(MD5Utils.Encrypt("admin", true));
     }
 
 }
